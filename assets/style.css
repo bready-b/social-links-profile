@@ -1,0 +1,74 @@
+body {
+    display: flex;
+    justify-content: center;
+    height: 90vh;
+    z-index: 1;
+    background-color: hsl(0, 0%, 8%);
+    font-family: 'Inter', sans-serif;
+}
+
+#container {
+    background-color: hsl(0, 0%, 12%);
+    z-index: 999;
+    width: 30%;
+    border-radius: 10px;
+}
+
+.inner-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.inner-img img {
+    width: 20%;
+    height: 20%;
+    border-radius: 50px;
+}
+
+.inner-headerAndParagraph {
+    text-align: center;
+}
+
+.inner-headerAndParagraph h2 {
+    font-size: 1.3rem;
+    font-weight: 400;
+    margin-bottom: 0;
+    color: hsl(0, 0%, 100%);
+}
+
+.inner-headerAndParagraph p {
+    font-size: 0.75rem;
+    font-weight: bold;
+    margin-top: 0.5rem;
+    color: hsl(75, 94%, 57%);
+}
+
+.inner-headerAndParagraph span {
+    color: hsl(0, 0%, 100%);
+    display: inline-block;
+    margin-top: 1rem;
+    font-size: 0.9rem;
+}
+
+.inner-profileLinks {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.8rem;
+}
+
+.inner-profileLinks a {
+    text-align: center;
+    margin: 0.5rem 0;
+    text-decoration: none;
+    color: white;
+    width: 70%;
+    padding: 1rem 0.5rem;
+    font-weight: bold;
+    font-size: 14px;
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 8px;
+}
